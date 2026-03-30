@@ -82,13 +82,7 @@ nav a {
 
 }
 
-
-
-
-
-
 .home {
-
     background-color: transparent;
     margin-top: 80px;
     text-align: center;
@@ -96,7 +90,7 @@ nav a {
 }
 
 .home img {
-    width: "auto";
+    width: 100%;
 }
 
 
@@ -342,7 +336,7 @@ footer {
         height: 100px;
         position: fixed;
         top: 0;
-        width: 1024px;
+        width: 795px;
         height: 5rem;
 
     }
@@ -364,7 +358,7 @@ footer {
     nav {
 
         text-align: center;
-        margin-right: 35%;
+        margin-right: 15%;
 
     }
 
@@ -375,9 +369,7 @@ footer {
 
     }
 
-    .home img {
-        width: 768px;
-    }
+
 
 
 
@@ -438,7 +430,7 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: start;
-        width: 100%;
+        width: 90%;
 
 
     }
@@ -478,8 +470,23 @@ footer {
 
 
     .imagem-artigo {
-        width: 50%;
-        height: 50%;
+        width: 795px;
+
+    }
+
+    .home-image {
+        width: 795px !important;
+    }
+
+
+
+    footer {
+        background-color: #4632a0e7;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        width: 795px;
     }
 
 }
@@ -510,7 +517,7 @@ footer {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 375px;
         height: 5rem;
         padding: 0 0.75rem;
 
@@ -542,9 +549,8 @@ footer {
     }
 
 
-    .home img {
-        width: 375px;
-
+    .home-image {
+        width: 375px !important;
     }
 
     .home2 {
@@ -611,6 +617,7 @@ footer {
     .imagem-artigo {
 
         width: 300px !important;
+        height: auto;
 
 
     }
@@ -683,6 +690,15 @@ footer {
 
     }
 
+
+    footer {
+        background-color: #4632a0e7;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        width: 375px;
+    }
 
 
 
